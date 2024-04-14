@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.title {
+  font-size: 24px; /* Tamaño de fuente más pequeño para el título */
+}
+
+.main {
+  display: flex; /* Utiliza flexbox para el diseño */
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+}
+
+.form-container {
+  width: 66.666%; /* Ancho del contenedor del formulario */
+  display: flex; /* Utiliza flexbox para el diseño */
+  flex-direction: column; /* Alinear elementos en columna */
+  justify-content: center; /* Centrar verticalmente los elementos */
+  margin: auto; /* Centrar horizontalmente el contenedor */
+}
